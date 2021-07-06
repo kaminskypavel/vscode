@@ -157,6 +157,8 @@ export interface ITerminalConfiguration {
 	macOptionClickForcesSelection: boolean;
 	gpuAcceleration: 'auto' | 'on' | 'canvas' | 'off';
 	rightClickBehavior: 'default' | 'copyPaste' | 'paste' | 'selectWord';
+	defaultColor: 'default' | 'random';
+	defaultIcon: 'default' | 'random';
 	cursorBlinking: boolean;
 	cursorStyle: string;
 	cursorWidth: number;

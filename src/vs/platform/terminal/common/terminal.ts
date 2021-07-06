@@ -18,6 +18,8 @@ export const enum TerminalSettingPrefix {
 }
 
 export const enum TerminalSettingId {
+	DefaultColor = 'terminal.integrated.defaultcolor',
+	DefaultIcon = 'terminal.integrated.defaulticon',
 	ShellLinux = 'terminal.integrated.shell.linux',
 	ShellMacOs = 'terminal.integrated.shell.osx',
 	ShellWindows = 'terminal.integrated.shell.windows',
